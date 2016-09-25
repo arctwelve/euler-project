@@ -1,0 +1,14 @@
+# User-specific stuff:
+.idea/workspace.xml
+.idea/compiler.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/misc.xml
+.idea/copyright
+.idea/inspectionProfiles
+
+
+
+# IntelliJ
+/out/
+
