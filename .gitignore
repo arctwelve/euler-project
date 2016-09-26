@@ -1,4 +1,4 @@
-# User-specific stuff:
+# IntelliJ:
 .idea/workspace.xml
 .idea/compiler.xml
 .idea/modules.xml
@@ -9,6 +9,9 @@
 
 
 
-# IntelliJ
+# Exclude compiled output
 /out/
+
+
+notes.txt
 
