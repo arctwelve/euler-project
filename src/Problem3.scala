@@ -1,5 +1,3 @@
-import scala.collection.mutable.ArrayBuffer
-
 /*
  * Problem 3:
  *
@@ -10,6 +8,7 @@ import scala.collection.mutable.ArrayBuffer
  * Solution: 6857
  */
 
+import scala.collection.mutable.ArrayBuffer
 
 /*
  * Divide the divident by the divisor -- if the result is an int, store it as a prime factor and set the new dividend

@@ -12,8 +12,8 @@
  * Solution: 4613732
  *
  */
-import scala.collection.mutable.ArrayBuffer
 
+import scala.collection.mutable.ArrayBuffer
 
 object Problem2 {
 
