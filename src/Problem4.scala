@@ -47,6 +47,7 @@ object Problem4 {
         lastHighest
     }
 
+
     /*
      * Simple string reversal comparison
      */
