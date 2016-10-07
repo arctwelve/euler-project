@@ -39,9 +39,9 @@ object Problem4 {
             }
 
             valB -= 1
-            if (valB == 1) {
+            if (valB < 1) {
                 valA -= 1
-                valB = b
+                valB = valA - 1
             }
         }
         lastHighest
