@@ -12,16 +12,17 @@
  * Solution: 4613732
  *
  */
-
 import scala.collection.mutable.ArrayBuffer
 
+
+/*
+ * Generates even fib numbers under maxFibVal. The problem gives the fib sequence
+ * starting at the third postion (1,2,3,5...). Even fib numbers are then summed for
+ * the solution
+ */
 object Problem2 {
 
-    /*
-     * Generates even fib numbers under maxFibVal. The problem gives the fib sequence
-     * starting at the third postion (1,2,3,5...). Even fib numbers are then summed for
-     * the solution
-     */
+
     def main(args: Array[String]) {
         val maxFibVal:Int = 4000000
 

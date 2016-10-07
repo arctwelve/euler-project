@@ -7,8 +7,8 @@
  *
  * Solution: 6857
  */
-
 import scala.collection.mutable.ArrayBuffer
+
 
 /*
  * Divide the divident by the divisor -- if the result is an int, store it as a prime factor and set the new dividend
@@ -16,12 +16,14 @@ import scala.collection.mutable.ArrayBuffer
  */
 object Problem3 {
 
+
     val targetNum:Double = 600851475143D
     var primeFactors = ArrayBuffer[Long]()
 
     var dividend:Double = targetNum
     var divisor:Double = 2
     var quotient:Double = 2
+
 
     def main(args: Array[String]) {
 

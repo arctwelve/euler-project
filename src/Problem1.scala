@@ -9,15 +9,17 @@
  *
  * Solution: 233168
  */
-
 import scala.collection.mutable.ArrayBuffer
 
+
 object Problem1 {
+
 
     def main(args: Array[String]) {
         val mults = getMultsBelow(3, 5, 1000)
         println(mults.sum)
     }
+
 
     def getMultsBelow(multA: Int, multB: Int, max: Int): ArrayBuffer[Int] = {
         var mults = ArrayBuffer[Int]()
