@@ -22,8 +22,9 @@ object Problem4 {
 
 
     /*
-     * Second value is decremented each loop by 1. When that reaches 1 the first value
-     * is decremented by 1 and the second value is reset to its original value.
+     * Second value is decremented each loop by 1. When that is less than 1,
+     * the first value is decremented by 1 and the second value is set to the
+     * first value minus 1, to avoid redundant checks.
      */
     def largestPalendromeProduct(a:Int, b:Int):Int = {
 
