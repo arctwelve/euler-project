@@ -4,6 +4,6 @@ https://projecteuler.net
 
 u: alec_cove
 
-Each problem has been designed according to a "one-minute rule", which means that although it may take several hours
+"Each problem has been designed according to a "one-minute rule", which means that although it may take several hours
 to design a successful algorithm with more difficult problems, an efficient implementation will allow a solution to be
-obtained on a modestly powered computer in less than one minute.
+obtained on a modestly powered computer in less than one minute."
