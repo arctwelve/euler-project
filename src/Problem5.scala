@@ -11,7 +11,8 @@ object Problem5 {
 
 
     /*
-     * Start at the highest of the divisors as the smallest possible number, divide by each number decrementing
+     * Start at the highest of the divisors as the smallest possible number,
+     * divide by each number decrementing
      */
     def main(args: Array[String]) {
 
