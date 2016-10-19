@@ -1,2 +1,2 @@
-# euler-project-scala
-Euler project problems in Scala
+# euler-project
+Euler Project problems in Scala and Python
