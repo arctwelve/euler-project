@@ -17,3 +17,23 @@
 #
 #
 
+
+def sum_of_squares(upper_bound):
+
+    sum_squares = 0
+
+    for x in range(1, upper_bound + 1):
+        sum_squares += x**2
+
+    return sum_squares
+
+
+def square_of_sums(upper_bound):
+
+    square_sums = sum(range(1, upper_bound + 1))
+
+    return square_sums**2
+
+
+result = square_of_sums(10)
+print(result)
