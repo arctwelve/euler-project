@@ -1,2 +1,2 @@
 # euler-project
-My Euler Project solutions in various languages
+My ongoing Project Euler solutions in different languages 
