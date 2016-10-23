@@ -13,7 +13,7 @@
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum
 #
 #
-# Solution:
+# Solution: 25164150
 #
 #
 
@@ -35,5 +35,6 @@ def square_of_sums(upper_bound):
     return square_sums**2
 
 
-result = square_of_sums(10)
+nums = 100
+result = square_of_sums(nums) - sum_of_squares(nums)
 print(result)
