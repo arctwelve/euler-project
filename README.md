@@ -1,2 +1,2 @@
 # euler-project
-Euler Project problems in Scala and Python
+My Euler Project solutions in various languages
