@@ -2,7 +2,7 @@
 #
 # What is the 10,001st prime number?
 #
-# Solution: 104759
+# Solution: 104743
 #
 
 
@@ -33,7 +33,7 @@ def sieve_primes(amount):
                 primeSieve[x] = -1
 
 
-candidates = 110000
+candidates = 105000
 sieve_primes(candidates)
 
-print(primes[10001])
+print(primes[10000])
