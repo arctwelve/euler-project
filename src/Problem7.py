@@ -9,16 +9,16 @@ import math
 
 # Standard Sieve of Eratosthenes
 def prime_sieve(amt):
-    prime_list = [True] * amt
 
-    prime_list[0] = prime_list[1] = False
+    prime_bool_list = [True] * amt
+    prime_bool_list[0] = prime_bool_list[1] = False
 
     for i in range(2, math.floor(math.sqrt(amt))):
-        if prime_list[i]:
+        if prime_bool_list[i]:
             for j in range(i * i, amt, i):
-                prime_list[j] = False
+                prime_bool_list[j] = False
 
-    return prime_list
+    return prime_bool_list
 
 
 # Actual prime storage
