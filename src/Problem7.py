@@ -7,7 +7,7 @@
 import math
 
 
-# Standard Sieve of Erastosthenes
+# Standard Sieve of Eratosthenes
 def prime_sieve(amt):
     prime_list = [True] * amt
 
