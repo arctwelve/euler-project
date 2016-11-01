@@ -4,36 +4,35 @@
 #
 # Solution: 104743
 #
+import math
 
 
-primeSieve = []
-primes = []
+# Standard Sieve of Erastosthenes
+def prime_sieve(amt):
+    prime_list = [True] * amt
+
+    prime_list[0] = prime_list[1] = False
+
+    for i in range(2, math.floor(math.sqrt(amt))):
+        if prime_list[i]:
+            for j in range(i * i, amt, i):
+                prime_list[j] = False
+
+    return prime_list
 
 
-def is_prime(val):
-    if val < 2:
-        return False
-    for i in range(2, val):
-        if val % i == 0:
-            return False
+# Actual prime storage
+def store_primes(bool_list):
+    real_primes = []
+    for i in range(0, len(bool_list)):
+        if bool_list[i]:
+            real_primes.append(i)
 
-    return True
-
-
-def sieve_primes(amount):
-
-    for i in range(amount):
-        primeSieve.append(0)
-
-    for i in range(amount):
-        if primeSieve[i] == 0 and is_prime(i):
-            primeSieve[i] = 1
-            primes.append(i)
-            for x in range(i * 2, amount, i):
-                primeSieve[x] = -1
+    return real_primes
 
 
-candidates = 105000
-sieve_primes(candidates)
+candidates = 104750
+bool_primes = prime_sieve(candidates)
+primes = store_primes(bool_primes)
 
 print(primes[10000])
