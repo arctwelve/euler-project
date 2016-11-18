@@ -13,7 +13,7 @@
 #
 # Find the product abc.
 #
-# Solution:
+# Solution: 31875000
 #
 
 
@@ -23,6 +23,7 @@ import math
 # iterate through a and b to find triplets. if the square of the sum of a + b is a
 # natural number then the triplet is Pythagorean. Find the sum that equals 1000.
 def build_prime_triplets(mxa):
+
     triplet = 0
     for a in range(1, mxa):
         for b in range(a + 1, mxa):
@@ -30,8 +31,8 @@ def build_prime_triplets(mxa):
             if c % 1 == 0:
                 if a + b + c == 1000:
                     triplet = [a, b, int(c)]
+                    break
 
-    return triplet
+    return triplet[0] * triplet[1] * triplet[2]
 
-
-print(build_prime_triplets(400))
+print(build_prime_triplets(380))
