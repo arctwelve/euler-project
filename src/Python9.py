@@ -28,8 +28,7 @@ def build_prime_triplets(mxa):
         for b in range(a + 1, mxa):
             c = math.sqrt(a * a + b * b)
             if c % 1 == 0:
-                sum = a + b + c
-                if sum == 1000:
+                if a + b + c == 1000:
                     triplet = [a, b, int(c)]
 
     return triplet
