@@ -34,4 +34,4 @@ def build_prime_triplets(mxa):
     return triplet
 
 
-print(build_prime_triplets(1000))
+print(build_prime_triplets(400))
