@@ -11,7 +11,6 @@
  */
 import scala.collection.mutable.ArrayBuffer
 
-
 object Problem1 {
 
 

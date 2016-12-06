@@ -14,7 +14,6 @@
  */
 import scala.collection.mutable.ArrayBuffer
 
-
 /*
  * Generates even fib numbers under maxFibVal. The problem gives the fib sequence
  * starting at the third postion (1,2,3,5...). Even fib numbers are then summed for

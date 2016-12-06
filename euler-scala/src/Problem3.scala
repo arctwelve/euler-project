@@ -9,7 +9,6 @@
  */
 import scala.collection.mutable.ArrayBuffer
 
-
 /*
  * Divide the divident by the divisor -- if the result is an int, store it as a prime factor and set the new dividend
  * to the old quotient. If the result is not an int increment the divisor by 1. loop while the quotient is > 1
@@ -18,7 +17,7 @@ object Problem3 {
 
 
     val targetNum:Double = 600851475143D
-    var primeFactors = ArrayBuffer[Long]()
+    var primeFactors: ArrayBuffer[Long] = ArrayBuffer[Long]()
 
     var dividend:Double = targetNum
     var divisor:Double = 2
